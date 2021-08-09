@@ -1,0 +1,73 @@
+﻿
+canvas {
+    background-color: white;
+    border: 1px solid black;
+    flex-shrink: 0;
+    margin-right: 0.5em;
+    background-size: contain;
+    background-position: center;
+}
+
+button {
+    background: transparent;
+    outline: none;
+    border: 0.1em solid red;
+    border-radius: 0.25em;
+    font-size: 1.5em;
+    color: red;
+}
+
+    button:hover {
+        background: red;
+        color: white;
+    }
+
+#output {
+    flex-grow: 100;
+    width: 100%;
+    border: 0.1em solid red;
+    border-radius: 0.25em;
+    outline: none;
+}
+
+.flex-row, .flex-column {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+#buttonRow {
+    margin-left: -0.25em;
+    margin-right: -0.25em;
+}
+
+    #buttonRow button {
+        flex-grow: 100;
+        margin: 0 0.25em 0.25em 0.25em;
+    }
+
+.toggle:hover {
+    color: white !important;
+}
+
+.toggle.on {
+    border-color: green;
+    color: green;
+}
+
+    .toggle.on:hover {
+        background: red;
+        border-color: red;
+    }
+
+.toggle:not(.on) {
+    border-color: red;
+    color: red;
+}
+
+    .toggle:not(.on):hover {
+        background: green;
+        border-color: green;
+    }

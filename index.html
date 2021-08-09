@@ -1,0 +1,23 @@
+﻿<html>
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <script defer="defer" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer="defer" src="script.js"></script>
+</head>
+<body>
+    <div id="buttonRow" class="flex-row">
+        <button id="btnUndo">Undo</button>
+        <button id="btnClear">Clear</button>
+
+        <button id="btnTrace">Trace...</button>
+
+        <button id="btnToggleGrid" class="toggle">Grid OFF</button>
+        <button id="btnToggleCoords" class="toggle">Coords OFF</button>
+    </div>
+    <div class="flex-row">
+        <canvas width="720" height="720"></canvas>
+        <textarea id="output" readonly="readonly"></textarea>
+    </div>
+
+</body>
+</html>
